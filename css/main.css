@@ -6,15 +6,15 @@
      justify-content: center;
      align-items: center;
 }
+span {
+     color: #e77d04;
+}
 
 h3 {
      font-family: "Amatic SC", sans-serif;
      font-size: 4.375rem;
 }
 
-span {
-     color: #e77d04;
-}
 
 .main-qoute {
      min-width: 500px;
