@@ -1,7 +1,7 @@
 #main-content {
      background-position: center;
      background-size: cover;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../img/pink-tulip-blue.jpg);
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../img/autumn-leaves-composition.jpg);
      display: flex;
      justify-content: center;
      align-items: center;
@@ -13,7 +13,7 @@ h3 {
 }
 
 span {
-     color: #3b1820;
+     color: #e77d04;
 }
 
 .main-qoute {
@@ -40,7 +40,7 @@ span {
      left: 50%;
      right: 50%;
      transform: translateX(-50%);
-     color: #3b1820;
+     color: #e77d04;
 }
 
 .writter-img {
@@ -67,10 +67,10 @@ span {
 
 .btn-outline-dark {
      --bs-btn-color: #fff;
-     --bs-btn-border-color: #3b1820;
+     --bs-btn-border-color: #e77d04;
      --bs-btn-hover-color: #fff;
-     --bs-btn-hover-bg: #3b1820;
-     --bs-btn-hover-border-color: #3b1820;
+     --bs-btn-hover-bg: #e77d04;
+     --bs-btn-hover-border-color: #e77d04;
 }
 
 @keyframes shake {
