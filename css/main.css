@@ -1,0 +1,120 @@
+#main-content {
+     background-position: center;
+     background-size: cover;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../img/pink-tulip-blue.jpg);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+h3 {
+     font-family: "Amatic SC", sans-serif;
+     font-size: 4.375rem;
+}
+
+span {
+     color: #3b1820;
+}
+
+.main-qoute {
+     min-width: 500px;
+     min-height: 300px;
+     background-color: rgb(255, 255, 255);
+     border-top-right-radius: 100px;
+     border-bottom-left-radius: 100px;
+     box-shadow: 9px 10px 20px 7px rgba(0, 13, 11, 0.39);
+     -webkit-box-shadow: 9px 10px 20px 7px rgba(0, 13, 11, 0.39);
+     -moz-box-shadow: 9px 10px 20px 7px rgba(0, 13, 11, 0.39);
+     position: relative;
+
+
+}
+
+.main-qoute:hover i {
+     animation: shake 1s infinite;
+}
+
+.main-qoute i {
+     position: absolute;
+     top: -35px;
+     left: 50%;
+     right: 50%;
+     transform: translateX(-50%);
+     color: #3b1820;
+}
+
+.writter-img {
+     width: 65px;
+     height: 65px;
+     border-radius: 50%;
+     overflow: hidden;
+     object-fit: cover;
+
+}
+
+.writter-img img {
+     width: 100%;
+}
+
+.hint-text {
+     font-family: "Alegreya", serif;
+}
+
+.qoute-text {
+     max-width: 350px;
+
+}
+
+.btn-outline-dark {
+     --bs-btn-color: #fff;
+     --bs-btn-border-color: #3b1820;
+     --bs-btn-hover-color: #fff;
+     --bs-btn-hover-bg: #3b1820;
+     --bs-btn-hover-border-color: #3b1820;
+}
+
+@keyframes shake {
+     0% {
+          transform: translate(1px, 1px) rotate(0deg);
+     }
+
+     10% {
+          transform: translate(-1px, -2px) rotate(-1deg);
+     }
+
+     20% {
+          transform: translate(-3px, 0px) rotate(1deg);
+     }
+
+     30% {
+          transform: translate(3px, 2px) rotate(0deg);
+     }
+
+     40% {
+          transform: translate(1px, -1px) rotate(1deg);
+     }
+
+     50% {
+          transform: translate(-1px, 2px) rotate(-1deg);
+     }
+
+     60% {
+          transform: translate(-3px, 1px) rotate(0deg);
+     }
+
+     70% {
+          transform: translate(3px, 1px) rotate(-1deg);
+     }
+
+     80% {
+          transform: translate(-1px, -1px) rotate(1deg);
+     }
+
+     90% {
+          transform: translate(1px, 2px) rotate(0deg);
+     }
+
+     100% {
+          transform: translate(1px, -2px) rotate(-1deg);
+     }
+}

@@ -1,0 +1,25 @@
+/* sm */
+@media (min-width: 640px) {}
+
+/* md */
+@media (min-width: 768px) {
+   .portifolio-item{width: 100%;}
+}
+
+/* lg */
+@media (min-width: 1024px) {
+ .portifolio-item{width: 50%}
+}
+
+/* xl */
+@media (min-width: 1280px) {
+.portifolio-item{width:33.33%}
+}
+
+/*xxl */
+@media (min-width: 1536px) {}
+
+/* 
+
+
+*/
