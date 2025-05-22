@@ -1,11 +1,11 @@
 var qoutesArray = [
      {
-          writterImg: './img/oscar.jpg',
+          writterImg: '/img/oscar.jpg',
           quote: '“Be yourself; everyone else is already taken.”',
           writter: '― Oscar Wilde'
      },
      {
-          writterImg: './img/maeWest.jpg',
+          writterImg: '/img/maeWest.jpg',
           quote: '“You only live once, but if you do it right, once is enough.”',
           writter: '― Mae West'
      },
