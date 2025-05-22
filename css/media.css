@@ -1,6 +1,8 @@
 /* sm */
 @media (max-width: 640px) {
-
+.main-qoute {
+min-width:200px;
+max-width:350px}
 }
 
 /* md */
