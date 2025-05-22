@@ -1,6 +1,6 @@
 var qoutesArray = [
      {
-          writterImg: '../img/oscar.jpg',
+          writterImg: './img/oscar.jpg',
           quote: '“Be yourself; everyone else is already taken.”',
           writter: '― Oscar Wilde'
      },
