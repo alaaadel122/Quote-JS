@@ -1,16 +1,14 @@
 /* sm */
 @media (max-width: 640px) {
 .main-qoute {
-
-max-width:350px}
+width:350px}
 .hint-text {font-size:14px}
 }
 
 /* md */
 @media (min-width: 768px) {
    .main-qoute {
-
-max-width:700px}
+width:700px}
 }
 }
 
