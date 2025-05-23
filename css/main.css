@@ -1,7 +1,7 @@
 #main-content {
      background-position: center;
      background-size: cover;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(./img/autumn-leaves-composition.jpg);
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../img/autumn-leaves-composition.jpg);
      display: flex;
      justify-content: center;
      align-items: center;
