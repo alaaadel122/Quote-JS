@@ -17,8 +17,7 @@ h3 {
 
 
 .main-qoute {
-     
-max-width:300px;
+     width:300px;
      min-height: 300px;
      background-color: rgb(255, 255, 255);
      border-top-right-radius: 100px;
